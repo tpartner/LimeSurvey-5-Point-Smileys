@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Customization of the short-text question template.
+-->
+
+<config>
+    <!-- Those metadata will be displayed in the template configuration page. They are not used for now. -->
+    <metadata>
+        <name>5PointSmileys</name>
+        <creationDate>28/03/2018</creationDate>
+        <author>Tony Partner</author>
+        <authorEmail>tpartner@partnersurveys.com</authorEmail>
+        <authorUrl>http://partnersurveys.com</authorUrl>
+        <license>GNU General Public License version 2 or later</license>
+        <version>1.0</version>
+        <apiVersion>1</apiVersion>
+        <description>A 5-point smiley question</description>
+    </metadata>
+
+    <!--
+        Here the list of the css/js files to load.
+        Any file here will be loaded via the asset manager (when in config.php debug = 0)
+    -->
+    <files>
+        <css>
+            <filename>css/5PointSmiley.css</filename>
+        </css>
+        <js>
+        </js>
+    </files>
+
+    <custom_attributes>
+		
+        <!-- Hide some core attributes -->
+		<attribute>
+            <name>slider_rating</name>
+            <category>Display</category>
+            <sortorder>1000</sortorder>
+            <inputtype></inputtype>
+            <default>0</default>
+            <help>This setting is not available in this question theme.</help>
+            <caption>Use slider layout (not required in this theme)</caption>
+			<readonly_when_active>false</readonly_when_active>
+        </attribute>
+    </custom_attributes>
+
+    <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
+    <engine>
+        <load_core_css>true</load_core_css>
+        <load_core_js>true</load_core_js>
+        <show_as_template>true</show_as_template>
+        <show_as_question_type>true</show_as_question_type>
+    </engine>
+</config>

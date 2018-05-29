@@ -14,3 +14,7 @@
 ![Image Select 5-point-smileys](/5-point-smileys/survey/questions/answer/5pointchoice/assets/images/5-point-smileys-3.png)
 
 4) The styles for the theme can be modified in */pathToLimeSurvey/upload/themes/question/5-point-smileys/survey/questions/answer/5pointchoice/assets/css/5PointSmiley.css*.
+
+**Notes:**
+
+1) Custom themes are given without any warranty, implied or otherwise.

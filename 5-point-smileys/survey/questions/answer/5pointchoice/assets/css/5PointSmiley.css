@@ -30,8 +30,6 @@
 
 .smiley-list .smiley-item label {
 	display: block;
-	border: 1px solid #DBDBDB;
-	border-right: 0 none;
 	height: 0;
 	margin: 0;
 	padding: 100% 0 0 0;
@@ -40,7 +38,6 @@
 }
 
 .smiley-list .smiley-item-5 label {
-	border-right:  1px solid #DBDBDB;
 }
 
 .smiley-list .smiley-item input[type="radio"]:checked + label {

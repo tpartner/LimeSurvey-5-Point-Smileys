@@ -63,31 +63,6 @@
 }
 
 .smiley-list .smiley-item-1 label::before { 
-	background-image: url(../images/smiley_1_62x62.png); 
-	filter: saturate(0);
-}
-
-.smiley-list .smiley-item-2 label::before { 
-	background-image: url(../images/smiley_2_62x62.png); 
-	filter: saturate(0);
-}
-
-.smiley-list .smiley-item-3 label::before { 
-	background-image: url(../images/smiley_3_62x62.png); 
-	filter: saturate(0);
-}
-
-.smiley-list .smiley-item-4 label::before { 
-	background-image: url(../images/smiley_4_62x62.png); 
-	filter: saturate(0);
-}
-
-.smiley-list .smiley-item-5 label::before { 
-	background-image: url(../images/smiley_5_62x62.png); 
-	filter: saturate(0);
-}
-
-.smiley-list .smiley-item-1 label::before { 
 	background-image: url(../images/smile_1.png); 
 	filter: saturate(0);
 }

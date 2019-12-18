@@ -1,5 +1,5 @@
 # 5-Point-Smileys for LimeSurvey
-**A custom question theme for a 5-point smiley scale in LimeSurvey 3.x**
+**A custom question theme that uses images for a 5-point smiley scale in LimeSurvey 3.x**
 
 ![Image Smiley Scale](/5-point-smileys/survey/questions/answer/5pointchoice/assets/images/5-point-smileys-1.png)
 

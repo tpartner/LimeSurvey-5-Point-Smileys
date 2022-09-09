@@ -13,7 +13,7 @@ Compatible with LimeSurvey versions 3.x and 5.x.
 2) - **3.x** - Create a 5 point choice question, click Save.<br />
 ![Image Select 5 point choice](/5-point-smileys/survey/questions/answer/5pointchoice/assets/images/5-point-smileys-2.png)
     - **5.x** - Create a 5 Point Smileys question, click Save.<br />
-    ![Image Select question theme](/5-Point-smileys/survey/questions/answer/5pointchoice/assets/images/5-point-smileys-5.png) 
+    ![Image Select question theme](/5-point-smileys/survey/questions/answer/5pointchoice/assets/images/5-point-smileys-5.png) 
 
 3) **3.x** - Set the question setting "Question theme" to "5-point-smileys", click Save.  
 ![Image Select 5-point-smileys](/5-point-smileys/survey/questions/answer/5pointchoice/assets/images/5-point-smileys-3.png)

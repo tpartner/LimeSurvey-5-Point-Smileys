@@ -6,16 +6,32 @@
 <config>
     <!-- Those metadata will be displayed in the template configuration page. They are not used for now. -->
     <metadata>
-        <name>5PointSmileys</name>
+        <name>5-Point-Smileys</name>
+        <type>question_theme</type>
+        <title>5 Point Smileys</title>
         <creationDate>28/03/2018</creationDate>
+        <lastUpdate>09/09/2022</lastUpdate>
         <author>Tony Partner</author>
         <authorEmail>tpartner@partnersurveys.com</authorEmail>
-        <authorUrl>http://partnersurveys.com</authorUrl>
+        <supportUrl>None</supportUrl>
         <license>GNU General Public License version 2 or later</license>
         <version>1.0</version>
         <apiVersion>1</apiVersion>
+        <lastSecurityUpdate>1.0</lastSecurityUpdate>
         <description>A 5-point smiley question</description>
+        <questionType>5</questionType>
+        <group>Single choice questions</group>
+        <subquestions>0</subquestions>
+        <answerscales>0</answerscales>
+        <hasdefaultvalues>0</hasdefaultvalues>
+        <assessable>0</assessable>
+        <class>choice-5-pt-radio</class>
     </metadata>
+
+    <compatibility>
+        <version>3.0</version>
+        <version>5.0</version>
+	</compatibility>
 
     <!--
         Here the list of the css/js files to load.
@@ -23,13 +39,16 @@
     -->
     <files>
         <css>
-            <filename>css/5PointSmiley.css</filename>
+            <filename>css/5-Point-Smiley.css</filename>
         </css>
         <js>
         </js>
+		<preview>
+			<filename>images/5-point-smileys.png</filename>
+		</preview>
     </files>
 
-    <custom_attributes>
+    <attributes>
 		
         <!-- Hide some core attributes -->
 		<attribute>
@@ -42,7 +61,7 @@
             <caption>Use slider layout (not required in this theme)</caption>
 			<readonly_when_active>false</readonly_when_active>
         </attribute>
-    </custom_attributes>
+    </attributes>
 
     <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
     <engine>

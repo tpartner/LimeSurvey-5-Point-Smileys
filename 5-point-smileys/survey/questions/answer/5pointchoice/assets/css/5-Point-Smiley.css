@@ -1,0 +1,90 @@
+
+
+/***** 
+    Styles for the 5 Point Smiley qustion theme
+    Copyright (C) 2018 - Tony Partner (http://partnersurveys.com)
+    Licensed MIT, GPL
+    Version - 1.0
+    Create date - 28/03/2018
+*****/
+
+/** SMILEYS QUESTION **/
+
+.smiley-list {
+	width: 100%;
+	max-width: 395px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.smiley-list .smiley-item {
+	display: block;
+	clear: none;
+	float: left;
+	width: 18%;
+	width: 20%;
+    padding: 0;
+	margin: 0 1%;
+	margin: 0;
+}
+
+.smiley-list .smiley-item label {
+	display: block;
+	border: 1px solid #DBDBDB;
+	border-right: 0 none;
+	height: 0;
+	margin: 0;
+	padding: 100% 0 0 0;
+	background: transparent 0 0 no-repeat;
+	font-size: 0;
+}
+
+.smiley-list .smiley-item-5 label {
+	border-right:  1px solid #DBDBDB;
+}
+
+.smiley-list .smiley-item input[type="radio"]:checked + label {
+	background: #ECF0F1;
+}
+
+.smiley-list .smiley-item label::before {
+    position: absolute;
+    left: 50%;
+	top: 8px;
+    display: inline-block;
+    width: 79.4872%;
+    height: 0;
+    margin-left: -39.7436%;
+    padding-top: 79.4872%;
+    content: "";
+    border: 0 none;
+    border-radius: 0;
+	background: transparent 0 0 no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.smiley-list .smiley-item-1 label::before { background-image: url(../images/smiley_1_62x62.png); }
+.smiley-list .smiley-item-2 label::before { background-image: url(../images/smiley_2_62x62.png); }
+.smiley-list .smiley-item-3 label::before { background-image: url(../images/smiley_3_62x62.png); }
+.smiley-list .smiley-item-4 label::before { background-image: url(../images/smiley_4_62x62.png); }
+.smiley-list .smiley-item-5 label::before { background-image: url(../images/smiley_5_62x62.png); }
+
+.smiley-list .smiley-item input[type="radio"]:hover + label::before {
+	opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+.smiley-list .smiley-item input[type="radio"]:checked + label::before {
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.smiley-list .smiley-item input[type="radio"]:focus + label::before {
+    outline: none;
+}
+
+.smiley-list .smiley-item  label::after {
+	display: none;
+}

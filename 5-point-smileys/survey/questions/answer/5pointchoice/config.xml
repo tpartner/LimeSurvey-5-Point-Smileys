@@ -9,8 +9,8 @@
         <name>5-Point-Smileys</name>
         <type>question_theme</type>
         <title>5 Point Smileys</title>
-        <creationDate>28/03/2018</creationDate>
-        <lastUpdate>09/09/2022</lastUpdate>
+        <creationDate>2018-03-28 08:00</creationDate>
+        <lastUpdate>2023-01-17 08:00</lastUpdate>
         <author>Tony Partner</author>
         <authorEmail>tpartner@partnersurveys.com</authorEmail>
         <supportUrl>None</supportUrl>
@@ -31,7 +31,8 @@
     <compatibility>
         <version>3.0</version>
         <version>5.0</version>
-	</compatibility>
+        <version>6.0</version>
+    </compatibility>
 
     <!--
         Here the list of the css/js files to load.
